@@ -1,6 +1,3 @@
-// Md Jakaria Nur
-/* Id: 252-35-252
-   Section: A1 */
 #include <stdio.h>
 #include <ctype.h>
 int main()
