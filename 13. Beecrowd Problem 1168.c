@@ -1,18 +1,19 @@
 /*
 https://www.beecrowd.com.br/judge/en/problems/view/1168
-  */
+*/
 #include <stdio.h>
 #include <string.h>
-int main () {
+int main ()
+{
     int i, length ,n;
     char str[100];
     int total;
     scanf("%d",&n);
-    while(n--)
+ while(n--)
     {
         scanf("%s",str);
         length = strlen(str);
-        for(i = 0, total = 0; i < length; i++)
+       for(i = 0, total = 0; i < length; i++)
         {
             if(str[i] == '0')
                 total += 6;
