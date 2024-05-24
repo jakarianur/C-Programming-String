@@ -3,7 +3,8 @@ int main()
 {
 char str1[100] = "Allah is the",str2[100] = "gretest", str3[100];
 int i,j;
-while (str1[i] != '\0') {
+while (str1[i] != '\0')
+	{
 		str3[j] = str1[i];
 		i++;
 		j++;
@@ -11,7 +12,8 @@ while (str1[i] != '\0') {
 	i = 0;
 	str3[j]= ' ';
 	j++;
-	while (str2[i] != '\0') {
+while (str2[i] != '\0')
+	{
 		str3[j] = str2[i];
 		i++;
 		j++;
