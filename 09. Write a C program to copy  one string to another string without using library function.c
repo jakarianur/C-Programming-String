@@ -5,13 +5,13 @@ int main()
     int i;
     printf("Enter your first string: \n");
     fgets(str1, sizeof(str1), stdin);
-     printf("Enter your second string: \n");
+    printf("Enter your second string: \n");
     fgets(str2, sizeof(str2), stdin);
     for (i = 0; str1[i] != '\0'; i++)
     {
         str2[i]=str1[i];
     }
     str2[i]='\0';
-            printf("After copying, this string is: %s\n", str2);
+        printf("After copying, this string is: %s\n", str2);
     return 0;
 }
