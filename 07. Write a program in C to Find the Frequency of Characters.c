@@ -5,7 +5,6 @@ int main()
     int frequency[256] = {0};
     printf("Enter a string: \n");
     fgets(str, sizeof(str), stdin);
-
     for (int i = 0; str[i] != '\0'; i++)
     {
         frequency[(unsigned char)str[i]]++;
