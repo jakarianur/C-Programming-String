@@ -7,15 +7,13 @@ int main()
     int used[256] = {0};
     printf("Enter a string: \n");
     fgets(str, sizeof(str), stdin);
-    
     str[strcspn(str, "\n")] = '\0';
     length = strlen(str);
-    
-    for (i = 0; i < length; i++)
-    {
-        used[(unsigned char)str[i]]++;
-    }
-    for (i = 0; i < 256; i++)
+for (i = 0; i < length; i++)
+{
+    used[(unsigned char)str[i]]++;
+}
+for (i = 0; i < 256; i++)
     {
         if (used[i] > max)
         {
