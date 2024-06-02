@@ -3,7 +3,7 @@ int main()
 {
     int i;
     char str[100];
-    printf("Enter your first string: \n");
+    printf("Enter your string: \n");
     fgets(str, sizeof(str), stdin);
 for (i = 0; str[i] != '\0'; i++)
 {
